@@ -20,8 +20,6 @@
   --white: hsl(0, 0%, 100%);
 
   --lightGray: hsl(0, 0%, 81%);
-  --lightGray50: hsla(0, 0%, 81%, 50%);
-  --lightGray70: hsla(0, 0%, 81%, 70%);
   --lightGrayishBlue: hsl(210, 46%, 95%);
   --lightGrayishBlue50: hsla(210, 46%, 95%, 50%);
   --lightGrayishBlue70: hsla(210, 46%, 95%, 70%);
@@ -63,6 +61,7 @@ body {
   width: 100%;
   padding: 24px 32px;
   border-radius: 7px;
+  box-shadow: 30px 50px 40px -25px hsl(212, 21%, 86%);
 }
 .card:not(:last-child) {
   margin-bottom: 24px;
